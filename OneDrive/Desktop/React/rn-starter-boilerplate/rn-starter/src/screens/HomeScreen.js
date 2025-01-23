@@ -33,6 +33,10 @@ const HomeScreen = ({ navigation }) => {
     title="Go to Count Colour change Demo"
     onPress={() => navigation.navigate(`change`)}
     />
+    <Button
+    title="Go to Count Text change Demo"
+    onPress={() => navigation.navigate(`textChange`)}
+    />
     </View>
     
   );

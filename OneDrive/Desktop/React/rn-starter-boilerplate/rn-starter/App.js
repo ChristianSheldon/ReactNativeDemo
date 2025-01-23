@@ -8,6 +8,7 @@ import CounterScreen from "./src/screens/CounterScreen";
 import CountGame from "./src/screens/CountGame";
 import ColorChange from "./src/screens/ColorChange";
 import rgbChanger from "./src/screens/rgbChanger";
+import TextScreen from "./src/screens/TextScreen";
 
 const navigator = createStackNavigator(
   {
@@ -18,7 +19,8 @@ const navigator = createStackNavigator(
     Count: CounterScreen,
     Game: CountGame,
     Colour: ColorChange,
-    change: rgbChanger
+    change: rgbChanger,
+    textChange: TextScreen
   },
   {
     initialRouteName: `Home`,
